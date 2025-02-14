@@ -37,6 +37,48 @@ label{
     height: 40px;
     width: 800PX;
 }
+#endereco{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 10px;
+    height: 40px;
+    width: 898PX;
+}
+.enviar{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 20px;
+    padding: 0px;
+    height: 40px;
+    width: 100px;
+
+}
 html{
     text-align: center;
+}
+#email{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 10px;
+    height: 40px;
+    width: 400PX;
+}
+#tel{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 10px;
+    height: 40px;
+    width: 400PX;
+}
+#cep{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 10px;
+    height: 40px;
+    width: 300PX;
 }
