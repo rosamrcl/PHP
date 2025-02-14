@@ -1,0 +1,42 @@
+input{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    height: 40px;
+    width: 250PX;
+}
+button{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 20px;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+}
+h1{
+    color: blueviolet;
+}
+#dvis{
+    align-items: center;
+    
+}
+
+label{
+    color: blueviolet;
+    
+
+}
+#nome{
+    border-radius: 20px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin: 10px;
+    height: 40px;
+    width: 800PX;
+}
+html{
+    text-align: center;
+}
