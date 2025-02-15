@@ -31,6 +31,7 @@
     <input class="enviar" type="submit" value="Enviar" id="enviar"><br>
 </form>
 </div>
+<img src="costi.svg" alt="">
 
 
 

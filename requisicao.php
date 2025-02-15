@@ -34,6 +34,7 @@
         exit();
         }
     ?>
+    <img src="costi.svg" alt="">
 
 </div>
 
