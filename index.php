@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 
 <main>
 <div class="container" id="divis">
-<?php
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
-        $nome=htmlspecialchars($_POST["nome"]);
-        $email=htmlspecialchars($_POST["email"]);
-        $tel=htmlspecialchars($_POST["tel"]);
-        $endereco=htmlspecialchars($_POST["endereco"]);
-        $cidade=htmlspecialchars($_POST["cidade"]);
-        $estado=htmlspecialchars($_POST["estado"]);
-        $cep=htmlspecialchars($_POST["cep"]);
+    <h1 class="forme">Formulário</h1>
+    <form action="requisicao.php" method="post">
+    <label for="nome">Nome Completo:</label> 
+    <input type="text" name="nome" id="nome" required><br>
 
-        echo "<p><strong>Nome:</strong> $nome</p>";
-        echo "<p><strong>E-mail:</strong> $email</p>";
-        echo "<p><strong>Telefone:</strong> $tel</p>";
-        echo "<p><strong>Rua:</strong> $endereco</p>";
-        echo "<p><strong>Cidade:</strong> $cidade</p>";
-        echo "<p><strong>Estado:</strong> $estado</p>";
-        echo "<p><strong>Cep:</strong> $cep</p>";
 
-    }else{
-        header("location:requisicao.php");
-        exit();
-        }
-    ?>
+    <label for="email">E-mail:</label>
+    <input type="email" name="email"  id="email" required>
+    <label for="tel">Telefone:</label>
+    <input type="tel" name="tel"   id="tel" required><br>
 
+
+    <label for="endereco">Rua:</label>
+    <input type="text" name="endereco" id="endereco" required><br>
+    <label for="cidade">Cidade:</label> <input type="text" name="cidade"  id="cidade" required>
+    <label for="estado">Estado:</label> <input type="text" name="estado"  id="estado" required>
+    <label for="cep">CEP: </label><input type="number" name="cep"  id="cep" required><br>
+    <input class="enviar" type="submit" value="Enviar" id="enviar"><br>
+</form>
 </div>
 
 
@@ -43,27 +38,3 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
-<?php
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
-        $nome=htmlspecialchars($_POST["nome"]);
-        $email=htmlspecialchars($_POST["email"]);
-        $tel=htmlspecialchars($_POST["tel"]);
-        $endereco=htmlspecialchars($_POST["endereco"]);
-        $cidade=htmlspecialchars($_POST["cidade"]);
-        $estado=htmlspecialchars($_POST["estado"]);
-        $cep=htmlspecialchars($_POST["cep"]);
-
-        echo "<p><strong>Nome:</strong> $nome</p>";
-        echo "<p><strong>E-mail:</strong> $email</p>";
-        echo "<p><strong>Telefone:</strong> $tel</p>";
-        echo "<p><strong>Rua:</strong> $endereco</p>";
-        echo "<p><strong>Cidade:</strong> $cidade</p>";
-        echo "<p><strong>Estado:</strong> $estado</p>";
-        echo "<p><strong>Cep:</strong> $cep</p>";
-
-    }else{
-        header("location:requisicao.php");
-        exit();
-    }
-
-    ?>
