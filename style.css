@@ -9,7 +9,7 @@ html,body{
 }
 .container{
     width: 500px;
-    height: 550px;
+    height: 580px;
     border-width: 10px;    
     border-radius: 20px;     
     background-color: rgba(220, 20, 60, 0.226); 
@@ -80,4 +80,10 @@ html,body{
 }
 label,p, .forme{
     color: rgba(175, 6, 40, 0.788);
+}
+.consti{
+    width: 80px;
+}
+.constir{
+    width: 150px;
 }

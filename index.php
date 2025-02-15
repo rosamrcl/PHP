@@ -12,6 +12,7 @@
 <main>
 <div class="container" id="divis">
     <h1 class="forme">Formulário</h1>
+    <img src="costi.svg" class="consti" alt="">
     <form action="requisicao.php" method="post">
     <label for="nome">Nome Completo:</label> 
     <input type="text" name="nome" id="nome" required><br>
@@ -31,7 +32,7 @@
     <input class="enviar" type="submit" value="Enviar" id="enviar"><br>
 </form>
 </div>
-<img src="costi.svg" alt="">
+
 
 
 
