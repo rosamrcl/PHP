@@ -26,7 +26,7 @@
         echo "<p><strong>E-mail:</strong> $email</p>";
         echo "<p><strong>Telefone:</strong> $tel</p>";
         echo "<p><strong>Rua:</strong> $endereco</p>";
-        echo "<p><strong>Rua:</strong> $complemento/p>";
+        echo "<p><strong>Complemento:</strong> $complemento/p>";
         echo "<p><strong>Cidade:</strong> $cidade</p>";
         echo "<p><strong>Estado:</strong> $estado</p>";
         echo "<p><strong>Cep:</strong> $cep</p>";
