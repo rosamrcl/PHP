@@ -25,7 +25,9 @@
 
 
     <label for="endereco">Rua:</label>
-    <input type="text" name="endereco" id="endereco" required><br>
+    <input type="text" name="endereco" id="endereco" required>
+    <label for="complemento">Complemento:</label>    
+    <input type="text" name="complemento" id="complemento" required > <br>
     <label for="cidade">Cidade:</label> <input type="text" name="cidade"  id="cidade" required>
     <label for="estado">Estado:</label> <input type="text" name="estado"  id="estado" required>
     <label for="cep">CEP: </label><input type="number" name="cep"  id="cep" required><br>

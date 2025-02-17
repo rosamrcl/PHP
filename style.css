@@ -9,12 +9,12 @@ html,body{
 }
 .container{
     width: 500px;
-    height: 580px;
+    height: 600px;
     border-width: 10px;    
     border-radius: 20px;     
     background-color: rgba(147, 203, 229, 0.425); 
     box-shadow:  black 1px 1px 1px 1px;
-    text-align: center;
+    justify-content: center;
 }
 #nome{
     margin: 20px;
@@ -44,7 +44,14 @@ html,body{
     box-shadow:  black 1px 1px 1px 1px;
     border-radius: 15px;
     height: 50px;
-    width: 1000px;
+    width: 800px;
+}
+#complemento{
+    margin: 20px;
+    box-shadow:  black 1px 1px 1px 1px;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
 }
 #cidade{
     margin: 20px;
@@ -83,6 +90,7 @@ label,p, .forme{
 }
 .consti{
     width: 80px;
+    text-align: center;
 }
 .constir{
     width: 150px;
