@@ -1,0 +1,46 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main{
+    text-align: center;
+    font-size: 2em;
+    background-color: darkgray;
+}
+
+input{
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: black 1px 1px 1px;
+    font-size: 2em;
+}
+select{
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: black 1px 1px 1px;
+    width: 220px;
+    font-size: 2em;
+}
+
+.igual{
+    width: 220px;
+    font-size: 2em;
+}
+#num1{
+    width: 220px;
+    font-size: 2em;
+    text-align: center;
+}
+#num2{
+    width: 220px;
+    font-size: 2em;
+    text-align: center;
+}
+#res{
+    width: 220px;
+    font-size: 2em;
+    text-align: center;
+}
