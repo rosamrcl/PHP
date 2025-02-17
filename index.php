@@ -10,7 +10,7 @@
 <body>
 
 <main>
-<div class="container" id="divis">
+<div class="container">
     <h1 class="forme">Formulário</h1>
     <img src="costi.svg" class="consti" alt="">
     <form action="requisicao.php" method="post">

@@ -12,7 +12,7 @@ html,body{
     height: 580px;
     border-width: 10px;    
     border-radius: 20px;     
-    background-color: rgba(220, 20, 60, 0.226); 
+    background-color: rgba(147, 203, 229, 0.425); 
     box-shadow:  black 1px 1px 1px 1px;
     text-align: center;
 }
@@ -86,4 +86,9 @@ label,p, .forme{
 }
 .constir{
     width: 150px;
+}
+#divis{
+    margin: 20px;
+    padding: 20px;
+
 }
