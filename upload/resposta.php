@@ -39,7 +39,7 @@
                 <?php
                 $folder=__DIR__ ."/uploads/";
                 if(!file_exists($folder)||!is_dir($folder)){
-                    mkdir($folder,0755,true);                    
+                    mkdir($folder,0755);                    
                 }
                 var_dump([
                     "filesize"=>ini_get("upload_max_filesize"),
@@ -58,14 +58,14 @@
                         "application/pdf"
                     ];
                 }elseif($getPost){
-                        echo"<p class='trigger warning'>Whoops parece que o arquivo que você selecionou é grande demais!</p>";
+                        echo "<p class='trigger warning'>Whoops parece que o arquivo que você selecionou é grande demais!</p>";
                         }else{
                             if($_FILES){
-                                echo"<pp class='trigger warning'>Selecione um arquivo antes de Enviar!</p>";
+                                echo "<p class='trigger warning'>Selecione um arquivo antes de Enviar!</p>";
 
                             }
                         }
-                        var_dump(scandir(__DIR__ ."uploads"));
+                        var_dump(scandir(__DIR__ ."/uploads"));
                     ?>
 
             </fieldset>
