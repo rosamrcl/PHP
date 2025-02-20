@@ -36,6 +36,7 @@
                 
                 
                 ?>
+                
                 <?php
                 $folder=__DIR__ ."/uploads/";
                 if(!file_exists($folder)||!is_dir($folder)){

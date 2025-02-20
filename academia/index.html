@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+
+            <fieldset><legend><h1>Ficha de cadastro</h1></legend>
+                <form action="dados.php" method="post">
+                    <input type="text" name="nome" class="inputdado">
+                    <label for="nome" class="inputlabel">Nome Completo</label><br>
+                    <input type="datetime" name="data" id="data"class="inputdado">
+                    <label for="data"class="inputlabel">Data de nascimento</label>
+                    <p>Sexo</p>
+                    <input type="radio" name="sexo" id="sexo"class="inputdado">
+                    <label for="sexo"class="inputlabel">Feminino</label><br>
+                    <input type="radio"class="inputlabel" name="sexo" id="sexo"class="inputdado">                
+                    <label for="sexo"class="inputlabel">Masculino</label><br>
+                    <input type="radio" name="sexo" id="sexo"class="inputdado"> 
+                    <label for="sexo"class="inputlabel">Outro</label><br>
+                    
+                    <input type="email" name="email" id="email"class="inputdado">
+                    <label for="email"class="inputlabel">E-mail</label><br>
+                    <input type="tel" name="tel" id="tel"class="inputdado">
+                    <label for="tel"class="inputlabel">Telefone</label><br>
+                    <input type="text" name="endereco" id="endereco"class="inputdado">
+                    <label for="endereco"class="inputlabel">Endereço</label><br>
+                    <input type="number" name="num" id="num"class="inputdado">
+                    <label for="num"class="inputlabel">Nº</label><br>
+                    <input type="number" name="cep" id="cep"class="inputdado">
+                    <label for="cep"class="inputlabel">CEP</label><br>
+
+
+
+                    <input type="number" name="peso" id="peso"class="inputdado">
+                    <label for="peso"class="inputlabel">Peso</label><br>
+                    <input type="number" name="imc" id="imc"class="inputdado">
+                    <label for="imc"class="inputlabel">IMC</label><br>
+                    <input type="datetime-local" name="datalocal" id="datalocal"class="inputdado"><br>
+                    <input type="file" name="arquivo" id="arquivo"class="inputdado"><br>
+                    <input type="submit" value="Enviar"class="enviar">  
+    
+    
+    
+    
+                </form>
+        
+                
+            </fieldset>
+        </div>
+    </main>
+    
+</body>
+</html>
