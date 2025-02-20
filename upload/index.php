@@ -56,7 +56,7 @@
                 </div><br>
                 <form action="./post=true" method="post" name="post" enctype="multipart/form-data">
                     <input type="file" name="file" id="file">
-                    <button>Enviar</button>
+                    
                 </form>
                 <input type="submit" value="Enviar" id="enviar">
                 
