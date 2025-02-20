@@ -38,7 +38,7 @@
                 ?>
                 <?php
                 $folder=__DIR__ ."/uploads/";
-                if(!file_exists($folder))||!is_dir($folder)){
+                if(!file_exists($folder)||!is_dir($folder)){
                     mkdir($folder,0755,true);                    
                 }
                 var_dump([
@@ -57,7 +57,7 @@
                         "image/png",
                         "application/pdf"
                     ];
-                    elseif($getPost){
+                }elseif($getPost){
                         echo"<p class='trigger warning'>Whoops parece que o arquivo que você selecionou é grande demais!</p>";
                         }else{
                             if($_FILES){
@@ -65,9 +65,8 @@
 
                             }
                         }
-                        include_DIR__ ."index.php";
                         var_dump(scandir(__DIR__ ."uploads"));
-                ?>
+                    ?>
 
             </fieldset>
         </div>
