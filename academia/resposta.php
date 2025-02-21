@@ -10,43 +10,46 @@
     <main>
         <div class="box">
             <fieldset>
-                <legend>Cadastro do aluno</legend>
+                <legend> <h1>Cadastro do aluno</h1></legend>
                 <?php 
-                $nome=$_POST("nome");
-                $lastaname=$_POST("lastaname");
-                $email=$_POST("email");
-                $tel=$_POST("tel");
-                $genero=$_POST("genero");
-                $data_nascimento=$_POST("data_nascimento");
-                $peso=$_POST("peso");
-                $altura=$_POST("altura");
-                $imc=$peso/($altura*$altura)
-                $adress=$_POST("adress");
-                $number=$_POST("number");
-                $complemento=$_POST("complemento");
-                $cidade=$_POST("cidade");
-                $estado=$_POST("estado");
-                $cep=$_POST("cep");
-                $datalocal=$_POST("datalocal");
-                echo"<p><strong>Nome:</strong> $nome
-                    <strong>Nome:</strong> $lastname
-                    <strong>Sobrenome:</strong>$email
-                    <strong>Telefoe:</strong> $tel
-                    <strong>Sexo:</strong>$genero
-                    <strong>Data de Nascimento:</strong>$data_nascimento
-                    <strong>Peso:</strong>$peso
-                    <strong>Altura:</strong>$altura
-                    <strong>IMC:</strong>$imc
-                    <strong>Endereço:</strong>$endereco
-                    <strong>Nº:</strong>$number
-                    <strong>Complemento:</strong>$complemento
-                    <strong>Cidade:</strong>$cidade
-                    <strong>Estado:</strong>$estado
-                    <strong>CEP:</strong>$cep
-                    <strong>Data e local:</strong>$datalocal
-                    </p>" ;
+                if ($_SERVER['REQUEST_METHOD']=="POST"){
 
-                
+                    $nome = ($_POST['nome']);
+                    $lastaname=($_POST['lastaname']);
+                    $email=($_POST["email"]);
+                    $tel=($_POST["tel"]);
+                    $genero=($_POST["genero"]);
+                    $data_nascimento=($_POST["data_nascimento"]);
+                    $peso=($_POST["peso"]);
+                    $altura=($_POST["altura"]);
+                    // $imc=$peso/($altura*$altura);
+                    $adress=($_POST["adress"]);
+                    $number=($_POST["number"]);
+                    $complemento=($_POST["complemento"]);
+                    $cidade=($_POST["cidade"]);
+                    $estado=($_POST["estado"]);
+                    $cep=($_POST["cep"]);
+                    $datalocal=($_POST["datalocal"]);
+                    
+                    echo"<p><strong>Nome:</strong> $nome . $lastaname <br></p>" ;                    
+                    echo "<p><strong>E-mail:</strong>$email <br></p>";
+                    echo "<p><strong>Telefone:</strong> $tel <br></p>";
+                    echo "<p><strong>Sexo:</strong>$genero <br></p>";
+                    echo "<p><strong>Data de Nascimento:</strong>$data_nascimento<br></p>";
+                    echo "<p><strong>Peso:</strong>$peso<br></p>";
+                    echo "<p><strong>Altura:</strong>$altura<br></p>";
+                    // echo "<p><strong>IMC:</strong>$imc<br></p>";
+                    echo "<p> <strong>Endereço:</strong>$adress<br></p>";
+                    echo "<p><strong>Nº:</strong>$number<br></p>";
+                    echo "<p><strong>Complemento:</strong>$complemento<br></p>";
+                    echo "<p><strong>Cidade:</strong>$cidade<br></p>";
+                    echo "<p><strong>Estado:</strong>$estado<br></p>";
+                    echo "<p><strong>CEP:</strong>$cep<br></p>";
+                    echo "<p><strong>Data e local:</strong>$datalocal<br></p>";       
+                }else{
+                    header ("Location:cadastro.php");
+                    exit();
+                }
                 
                 ?>
                 
