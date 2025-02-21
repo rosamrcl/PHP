@@ -37,10 +37,10 @@
 
                 <div class="inputbox">
                     <label for="data_nascimento">Data de nascimento</label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required><br>
                     <input type="number" name="peso" id="peso" class="inputUser" required>
                     <label for="peso"class="labelinput">Peso</label><br>
-                    <input type="number" name="altura" id="altura" class="inputUser" required>
+                    <input type="number" name="altura" id="altura" class="inputUser" required><br>
                     <label for="altura" class="labelinput">Altura</label>                   
                     
 
