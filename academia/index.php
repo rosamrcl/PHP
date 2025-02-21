@@ -36,14 +36,20 @@
                 <label for="outro">Outro</label><br>
 
                 <div class="inputbox">
-                    <label for="data_nascimento">Data de nascimento</label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required><br>
-                    <input type="number" name="peso" id="peso" class="inputUser" required>
-                    <label for="peso"class="labelinput">Peso</label><br>
-                    <input type="number" name="altura" id="altura" class="inputUser" required><br>
-                    <label for="altura" class="labelinput">Altura</label>                   
+                    <br><label for="data_nascimento">Data de nascimento</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento"  required><br>
+                    
                     
 
+                </div><br>
+                <div class="inputbox">
+                    <input type="number" name="peso" id="peso" class="inputUser" required><br>
+                    <label for="peso"  class="labelinput">Peso</label><br>
+                </div><br>
+                <div class="inputbox">
+                    
+                    <input type="number" name="altura" id="altura" class="inputUser" required><br>
+                    <label for="altura" class="labelinput">Altura</label>               
                 </div><br>
                 
     
@@ -78,8 +84,8 @@
                     </form>
                 </div><br>
                 <div class="inputbox">
-                    <input type="datetime-local" name="datalocal" id="datalocal" class="inputUser">
-                    <label for="datalocal" class="labelinput">Data e local</label>
+                    <input type="datetime-local" name="datalocal" id="datalocal" >
+                    <label for="datalocal" >Data e local</label>
 
                 </div><br>
                 <input type="submit" value="Enviar" id="enviar">
