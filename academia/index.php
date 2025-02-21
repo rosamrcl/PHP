@@ -10,7 +10,7 @@
 <body>
     <div class="box">
         <form action="resposta.php" method="post">
-            <fieldset> <legend><b>Formulário</b></legend><br>
+            <fieldset> <legend><b>Cadastro do Aluno</b></legend><br>
                 <div class="inputbox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="firstname"class="labelinput">Nome</label>                    
