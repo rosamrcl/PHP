@@ -61,7 +61,7 @@ header{
     transition: all 1.5s ease-in;
 
 }
-.menu-content .list-itens, a:hover:before{
+.menu-content .list-itens a:hover:before{
     width: 100%;
 }
 .socialmedia{
@@ -110,13 +110,17 @@ main{
     cursor: pointer;
     border: 1px solid white;
     color: white;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     background-color: transparent;
     font-weight: bold;
     letter-spacing: 0.2rem;
     border-radius: 20px;
     position: relative;
     transition: 1.5s;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .btns button:hover{
     color: yellow;
