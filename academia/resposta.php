@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro do aluno</title>
     <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div class="box">
+    <header>        
+        <div class="menu-content">
+            <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
+            <nav class="headermenu">
+                <ul class="list-itens">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#"></a>Planos</li>
+                    <li><a href="imc.php"></a>Calcule seu IMC</li>
+                    <li><a href="cadastro.php"></a>Cadastro</li>
+                    <li><a href="#"></a><img class="socialmedia" src="./img/bluesky-brands-solid.svg" alt=""></li>
+                    <li><a href="#"></a><img class="socialmedia"  src="./img/instagram-brands-solid.svg" alt=""></li>
+                    <li><a href="#"></a>Sobre Nós</li>
+                </ul>
+                
+
+            </nav>
+        </div>
+        
+</header>
+        <div class="maincontent">
             <fieldset>
                 <legend> <h1>Cadastro do aluno</h1></legend>
                 <?php 
@@ -22,7 +44,7 @@
                     $data_nascimento=($_POST["data_nascimento"]);
                     $peso=($_POST["peso"]);
                     $altura=($_POST["altura"]);
-                    // $imc=$peso/($altura*$altura);
+                    $imc=$peso/($altura*$altura);
                     $adress=($_POST["adress"]);
                     $number=($_POST["number"]);
                     $complemento=($_POST["complemento"]);
@@ -38,7 +60,7 @@
                     echo "<p><strong>Data de Nascimento:</strong>$data_nascimento<br></p>";
                     echo "<p><strong>Peso:</strong>$peso<br></p>";
                     echo "<p><strong>Altura:</strong>$altura<br></p>";
-                    // echo "<p><strong>IMC:</strong>$imc<br></p>";
+                    echo "<p><strong>IMC:</strong>$imc<br></p>";
                     echo "<p> <strong>Endereço:</strong>$adress<br></p>";
                     echo "<p><strong>Nº:</strong>$number<br></p>";
                     echo "<p><strong>Complemento:</strong>$complemento<br></p>";
@@ -83,9 +105,7 @@
                             }
                         }
                         var_dump(scandir(__DIR__ ."/uploads"));
-                    ?>
-                    
-               
+                    ?>                                 
 
             </fieldset>
         </div>

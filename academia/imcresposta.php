@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servant</title>
+    <title>Calculo IMC</title>
     <link rel="stylesheet" href="./css/imc.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+<header>
         
         <div class="menu-content">
             <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
@@ -27,43 +27,50 @@
                 
 
             </nav>
-        </div>
-        
-    
-
+        </div>       
 </header>
-    </header>
+    <main>
+
+    
     <main>
         <div class="maincontent">
             <h1 class="primary-text">Malhar é questão de saúde física e mental</h1>
             <h2 class="second-text">
             SE INSCREVA AGORA E MUDE DE VIDA
-            </h2>
-            <fieldset><legend><h1 class="primary-text">Calcule seu IMC</h1></legend>
-                <form action="imcresposta.php" method="post">            
-                    <div class="inputbox">
-                        <input type="number" step="0.01" name="peso"  id="peso" class="inputUser" required><br>
-                        <label for="peso"  class="labelinput">Peso</label><br>
-                    </div><br>
-                    <div class="inputbox">                        
-                        <input type="number" step="0.01" name="altura" id="altura" class="inputUser" required><br>
-                        <label for="altura" class="labelinput">Altura</label>               
-                    </div><br>
-                    
-                    <input type="submit" value="Enviar" id="enviar" class="btns">
-                </form>
-            </fieldset>         
+            </h2> 
+            <?php
+        if ( $_SERVER['REQUEST_METHOD']=="POST" ){
+            $peso=($_POST['peso']);
+            $altura=($_POST['altura']);
+            $imc=$peso/pow($altura,2);
+            echo "<fieldset><legend><h1>Seu IMC</h1></legend>
+            <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
+                Seu <strong>IMC</strong> é de <strong>$imc</strong>
+            </p>
+            
+            </fieldset> ";       
+        
+        }
+            if($imc<18.5){
+                echo "<fieldset><p>Magreza</p></fieldset>";
+            }elseif($imc>=18.5 and $imc<24.9){
+                echo "<fieldset><p>Normal</p></fieldset>";
+            }elseif($imc>=18.5 and $imc<24.9){
+                echo "<fieldset><p>Sobrepeso</p></fieldset>";
+            }elseif($imc>24.9){
+                echo "<fieldset><p>Obesidade</p></fieldset>";  
+            }else{
+                header ("Location:index.hmtl");
+                exit();
+            }
+        
+        
+        ?>               
 
         </div>
-        
-            
-        
-        
-
+    
     </main>
-    <footer>
 
-    </footer>
     
 </body>
 </html>
