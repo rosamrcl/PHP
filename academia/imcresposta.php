@@ -42,23 +42,38 @@
         if ( $_SERVER['REQUEST_METHOD']=="POST" ){
             $peso=($_POST['peso']);
             $altura=($_POST['altura']);
-            $imc=$peso/pow($altura,2);
-            echo "<fieldset><legend><h1>Seu IMC</h1></legend>
-            <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
-                Seu <strong>IMC</strong> é de <strong>$imc</strong>
-            </p>
-            
-            </fieldset> ";       
-        
+            $imc=$peso/pow($altura,2);            
         }
             if($imc<18.5){
-                echo "<fieldset><p>Magreza</p></fieldset>";
+            echo "<fieldset><legend><h1>Seu IMC</h1></legend>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
+                    Seu <strong>IMC</strong> é de <strong>$imc.</strong>
+                    Indicando:Magreza
+                </p>       
+                </fieldset> ";
             }elseif($imc>=18.5 and $imc<24.9){
-                echo "<fieldset><p>Normal</p></fieldset>";
+                echo "<fieldset><legend><h1>Seu IMC</h1></legend>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
+                    Seu <strong>IMC</strong> é de <strong>$imc.</strong>
+                    Indicando:Peso Normal
+                </p>       
+                </fieldset> ";
+            
             }elseif($imc>=18.5 and $imc<24.9){
-                echo "<fieldset><p>Sobrepeso</p></fieldset>";
+                echo "<fieldset><legend><h1>Seu IMC</h1></legend>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
+                    Seu <strong>IMC</strong> é de <strong>$imc.</strong>
+                    Indicando:Sobrepeso
+                </p>       
+                </fieldset> ";
+            
             }elseif($imc>24.9){
-                echo "<fieldset><p>Obesidade</p></fieldset>";  
+                echo "<fieldset><legend><h1>Seu IMC</h1></legend>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>
+                    Seu <strong>IMC</strong> é de <strong>$imc.</strong>
+                    Indicando:Obesidade
+                </p>       
+                </fieldset> ";              
             }else{
                 header ("Location:index.hmtl");
                 exit();
