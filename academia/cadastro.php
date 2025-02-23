@@ -16,10 +16,10 @@
             <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
             <nav class="headermenu">
                 <ul class="list-itens">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#"></a>Planos</li>
-                    <li><a href="#"></a>Calcule seu IMC</li>
-                    <li><a href="#"></a>Cadastro</li>
+                    <li><a href="imc.php"></a>Calcule seu IMC</li>
+                    <li><a href="cadastro.php"></a>Cadastro</li>
                     <li><a href="#"></a><img class="socialmedia" src="./img/bluesky-brands-solid.svg" alt=""></li>
                     <li><a href="#"></a><img class="socialmedia"  src="./img/instagram-brands-solid.svg" alt=""></li>
                     <li><a href="#"></a>Sobre Nós</li>
