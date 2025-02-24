@@ -12,23 +12,25 @@
 <body>
 <header>
         
-        <div class="menu-content">
-            <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
-            <nav class="headermenu">
-                <ul class="list-itens">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Planos</a></li>
-                    <li><a href="imc.php">Calcule seu IMC</a></li>
-                    <li><a href="cadastro.php">Cadastro</a></li>
-                    <li><a href="#"><img class="socialmedia" src="./img/bluesky-brands-solid.svg" alt=""></a></li>
-                    <li><a href="#"><img class="socialmedia"  src="./img/instagram-brands-solid.svg" alt=""></a></li>
-                    <li><a href="#"></a>Sobre Nós</li>
-                </ul>
-                
+            <div class="menu-content">
+                <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
+                <nav class="headermenu">
+                    <ul class="list-itens">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="plano.html">Planos</a></li>
+                        <li><a href="imc.php">Calcule seu IMC</a></li>
+                        <li><a href="cadastro.php">Cadastro</a></li>
+                        <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
+                        <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    </ul>
+                    
 
-            </nav>
-        </div>       
-</header>
+                </nav>
+            </div>
+            
+        
+
+    </header>
 
 
     
@@ -46,32 +48,32 @@
         }
             if($imc<18.5){
             echo "<fieldset><legend><h1>Seu IMC:</h1></legend>
-                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg.</strong><br>
-                    Seu <strong>IMC</strong> é de <strong>$imc.</strong><br>
-                    Indicando:<strong>Magreza</strong>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>.<br>
+                    Seu <strong>IMC</strong> é de <strong>$imc</strong>.<br>
+                    Indicando:<strong> Magreza</strong>.
                 </p>       
                 </fieldset> ";
             }elseif($imc>=18.5 and $imc<24.9){
                 echo "<fieldset><legend><h1>Seu IMC:</h1></legend>
-                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg.</strong><br><br>
-                    Seu <strong>IMC</strong> é de <strong>$imc.</strong><br>
-                    Indicando:<strong>Peso Normal</strong>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>.<br><br>
+                    Seu <strong>IMC</strong> é de <strong>$imc</strong>.<br>
+                    Indicando: <strong> Peso Normal</strong>.
                 </p>       
                 </fieldset> ";
             
             }elseif($imc>=18.5 and $imc<24.9){
                 echo "<fieldset><legend><h1>Seu IMC:</h1></legend>
-                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg.</strong><br>
-                    Seu <strong>IMC</strong> é de <strong>$imc.</strong><br>
-                    Indicando:<strong>Sobrepeso</strong>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>.<br>
+                    Seu <strong>IMC</strong> é de <strong>$imc</strong>.<br>
+                    Indicando:<strong> Sobrepeso</strong>.
                 </p>       
                 </fieldset> ";
             
             }elseif($imc>24.9){
                 echo "<fieldset><legend><h1>Seu IMC:</h1></legend>
-                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg.</strong><br>
-                    Seu <strong>IMC</strong> é de <strong>$imc.</strong><br>
-                    Indicando:<strong>Obesidade</strong>
+                <p>Sua altura é de <strong>$altura</strong> e seu peso  é de <strong>$peso Kg</strong>.<br>
+                    Seu <strong>IMC</strong> é de <strong>$imc</strong>.<br>
+                    Indicando:<strong> Obesidade</strong>.
                 </p>       
                 </fieldset> ";              
             }else{

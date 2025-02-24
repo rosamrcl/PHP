@@ -10,24 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+<header>
         
         <div class="menu-content">
             <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
             <nav class="headermenu">
                 <ul class="list-itens">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Planos</a></li>
+                    <li><a href="plano.html">Planos</a></li>
                     <li><a href="imc.php">Calcule seu IMC</a></li>
                     <li><a href="cadastro.php">Cadastro</a></li>
-                    <li><a href="#"><img class="socialmedia" src="./img/bluesky-brands-solid.svg" alt=""></a></li>
-                    <li><a href="#"><img class="socialmedia"  src="./img/instagram-brands-solid.svg" alt=""></a></li>
-                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
                 </ul>
                 
 
             </nav>
-        </div>       
+        </div>
+        
+    
+
 </header>
 <main>
     <div class="maincontent">
@@ -123,7 +125,7 @@
 
         </form>
     </div>
-   
+
     
 </main>
 <footer>

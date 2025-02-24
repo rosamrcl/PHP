@@ -184,7 +184,9 @@ footer{
     width: 90%;
     height: 7vh;
     text-align: center;
+    display: inline-block;
     }
+
 .consti{
-    width: 50px;
+    width: 80px;
 }
