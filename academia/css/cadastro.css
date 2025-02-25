@@ -176,7 +176,10 @@ legend{
     font-size: 12px;
     color: white;
 }
-
+p{
+    font-size: 4em;
+    text-align: justify;
+}
 footer{
     background-color: rgba(22,22,22,0.2);
     bottom: 0;

@@ -45,7 +45,7 @@
             </h2>
             <div class="btns">
                 <button class="plan"><a href="plano.html">Planos</a></button>
-                <button class="personal"><a href="cadastro.php"></a>Cadastre-se</button>
+                <button class="personal"><a href="cadastro.php">Cadastre-se</a></button>
                 <button class="imc"><a href="imc.php">Calcule seu IMC</a></button>
 
             </div>
