@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,16 @@
     <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
     <main>
-<header>
-        
+        <header>
+
             <div class="menu-content">
                 <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
                 <nav class="headermenu">
@@ -22,20 +26,23 @@
                         <li><a href="plano.html">Planos</a></li>
                         <li><a href="imc.php">Calcule seu IMC</a></li>
                         <li><a href="cadastro.php">Cadastro</a></li>
-                        <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
+                        <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a>
+                        </li>
                         <li><a href="sobrenos.html">Sobre Nós</a></li>
                     </ul>
-                    
+
 
                 </nav>
             </div>
-            
-        
 
-    </header>
+
+
+        </header>
         <div class="maincontent">
             <fieldset>
-                <legend> <h1>Cadastro do aluno</h1></legend>
+                <legend>
+                    <h1>Cadastro do aluno</h1>
+                </legend>
                 <?php 
                 if ($_SERVER['REQUEST_METHOD']=="POST"){
 
@@ -77,7 +84,7 @@
                 }
                 
                 ?>
-                
+
                 <?php
                 $folder=__DIR__ ."/uploads/";
                 if(!file_exists($folder)||!is_dir($folder)){
@@ -108,17 +115,18 @@
                             }
                         }
                         var_dump(scandir(__DIR__ ."/uploads"));
-                    ?>                                 
+                    ?>
 
             </fieldset>
         </div>
 
-        
-        
+
+
     </main>
     <footer>
         <a href="https://github.com/RosaCL"><img class="consti" src="./img/costi.svg" alt=""></a>
     </footer>
-    
+
 </body>
+
 </html>

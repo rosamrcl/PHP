@@ -159,16 +159,17 @@ legend{
 }
 
 .texto{
-    font-size: 4em;
-    display: flex;
-    justify-content: center;
-    text-align: justify;
+    font-size: 4em;  
     margin: 4px;
     padding: 4px;
+    text-align: justify ;
 
 }
 #texto{
-    
+    width: 1200px;
+    height: 1100px;
+    margin: 4px;
+    padding: 4px;
 }
 .socialmidiai{
     font-size: 4em;
