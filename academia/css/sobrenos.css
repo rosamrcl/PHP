@@ -157,14 +157,17 @@ legend{
     border-radius: 8px;
     text-shadow:  0.1em 0.1em 0.1em green;
 }
-
-.texto{
-    font-size: 4em;
-    display: flex;
-    justify-content: center;
+#texto{
+    width: 1200px;
+    height: 1100px;
     text-align: justify;
-    margin: 4px;
-    padding: 4px;
+    margin: 5px;
+    padding: 5px;
+}
+.texto{
+    font-size: 4em; 
+    margin: 8px;
+    padding: 6px;
 
 }
 #cartao{
