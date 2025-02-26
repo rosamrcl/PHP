@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <main>
-<header>
-        
-            <div class="menu-content">
-                <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
-                <nav class="headermenu">
-                    <ul class="list-itens">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="plano.html">Planos</a></li>
-                        <li><a href="imc.php">Calcule seu IMC</a></li>
-                        <li><a href="cadastro.php">Cadastro</a></li>
-                        <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
-                        <li><a href="sobrenos.html">Sobre Nós</a></li>
-                    </ul>
-                    
-
-                </nav>
-            </div>
+    <header>
             
-        
-
-    </header>
+                <div class="menu-content">
+                    <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
+                    <nav class="headermenu">
+                        <ul class="list-itens">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="plano.html">Planos</a></li>
+                            <li><a href="imc.php">Calcule seu IMC</a></li>
+                            <li><a href="cadastro.php">Cadastro</a></li>
+                            <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                        </ul>
+                        
+    
+                    </nav>
+                </div>
+                
+            
+    
+        </header>
+    <main>
         <div class="maincontent">
             <fieldset>
                 <legend> <h1>Cadastro do aluno</h1></legend>
