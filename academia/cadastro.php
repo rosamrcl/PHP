@@ -90,37 +90,37 @@
 
 
                     <div class="inputbox">
-                        <input type="text" name="adress" id="adress" class="inputUser">
+                        <input type="text" name="adress" id="adress" class="inputUser" required>
                         <label for="adress" class="labelinput">Endereço</label>
                     </div><br>
                     <div class="inputbox">
-                        <input type="number" name="number" id="number" class="inputUser">
+                        <input type="number" name="number" id="number" class="inputUser" required>
                         <label for="number" class="labelinput">N°</label>
                     </div><br>
                     <div class="inputbox">
-                        <input type="text" id="complemento" name="complemento" class="inputUser">
+                        <input type="text" id="complemento" name="complemento" class="inputUser" required>
                         <label for="complemento" class="labelinput">Complemento</label>
                     </div><br>
                     <div class="inputbox">
-                        <input type="text" id="cidade" name="cidade" class="inputUser">
+                        <input type="text" id="cidade" name="cidade" class="inputUser" required>
                         <label for="cidade" class="labelinput">Cidade</label>
                     </div><br>
                     <div class="inputbox">
-                        <input type="text" id="estado" name="estado" class="inputUser">
+                        <input type="text" id="estado" name="estado" class="inputUser" required>
                         <label for="estado" class="labelinput">Estado</label>
                     </div><br>
                     <div class="inputbox">
-                        <input type="number" name="cep" id="cep" class="inputUser">
+                        <input type="number" name="cep" id="cep" class="inputUser" required>
                         <label for="cep" class="labelinput">CEP</label>
                     </div><br>
                     <div class="inputbox">
-                        <form action="./post=true" method="post" name="post" enctype="multipart/form-data">
+                        <form action="./post=true" method="post" name="post" enctype="multipart/form-data" required>
                             <input type="file" name="file" id="file" class="inputUser">
 
                         </form>
                     </div><br>
                     <div class="inputbox">
-                        <input type="datetime-local" name="datalocal" id="datalocal">
+                        <input type="datetime-local" name="datalocal" id="datalocal" required>
                         <label for="datalocal">Data e local</label>
 
                     </div><br>
