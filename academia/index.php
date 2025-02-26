@@ -43,17 +43,10 @@
             <h2 class="second-text">
                 SE INSCREVA AGORA E MUDE DE VIDA
             </h2>
-<<<<<<< HEAD
-        <div class="btns">
-            <button class="plan"><a href="plano.html">Planos</a></button>
-            <button class="personal"><a href="cadastro.php">Cadastre-se</a></button>
-            <button class="imc"><a href="imc.php">Calcule seu IMC</a></button>
-=======
             <div class="btns">
                 <button class="plan"><a href="plano.html">Planos</a></button>
                 <button class="personal"><a href="cadastro.php">Cadastre-se</a></button>
                 <button class="imc"><a href="imc.php">Calcule seu IMC</a></button>
->>>>>>> a22c49e38e89e3373b7014911ca07e94ae058eea
 
             </div>
         </div>

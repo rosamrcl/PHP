@@ -16,30 +16,6 @@
 
 <body>
     <header>
-<<<<<<< HEAD
-            
-                <div class="menu-content">
-                    <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
-                    <nav class="headermenu">
-                        <ul class="list-itens">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="plano.html">Planos</a></li>
-                            <li><a href="imc.php">Calcule seu IMC</a></li>
-                            <li><a href="cadastro.php">Cadastro</a></li>
-                            <li><a href="contato.html"><img class="socialmedia" src="./img/redes-sociais.png" alt=""></a></li>                        
-                            <li><a href="sobrenos.html">Sobre Nós</a></li>
-                        </ul>
-                        
-    
-                    </nav>
-                </div>
-                
-            
-    
-        </header>
-    <main>
-        <div class="maincontent">
-=======
         
         <div class="menu-content">
             <img class="logoimg" src="./img/image_1-removebg-preview.png" alt="">
@@ -64,7 +40,6 @@
 
 <main>
 <div class="maincontent">
->>>>>>> a22c49e38e89e3373b7014911ca07e94ae058eea
             <fieldset>
                 <legend>
                     <h1 primary-text>Cadastro do aluno</h1>
