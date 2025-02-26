@@ -42,7 +42,7 @@
 <div class="maincontent">
             <fieldset>
                 <legend>
-                    <h1 primary-text>Cadastro do aluno</h1>
+                    <h1 primary-texto>Cadastro do aluno</h1>
                 </legend>
                 <?php 
                 if ($_SERVER['REQUEST_METHOD']=="POST"){

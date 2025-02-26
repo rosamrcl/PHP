@@ -176,9 +176,22 @@ legend{
     font-size: 12px;
     color: white;
 }
-.txt{
-    font-size: 4em;
+.primary-texto{
+    font-family: "Sigmar", serif;    
+    width: 750px;
+    font-size: 4rem;
+    margin: 2rem;
+    text-align: center;    
+    text-shadow:  0.1em 0.1em 0.1em green;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;    
+    
+}
+p{
+    font-size: 3em;
     text-align: justify;
+    margin: 5px;
+    padding: 5px;
 }
 footer{
     background-color: rgba(22,22,22,0.2);
