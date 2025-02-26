@@ -64,7 +64,7 @@
                     $cep=($_POST["cep"]);
                     $datalocal=($_POST["datalocal"]);
                     
-                    echo"<p class ""txt""><strong>Nome:</strong> $nome . $lastaname <br></p>" ;                    
+                    echo"<p><strong>Nome:</strong> $nome . $lastaname <br></p>" ;                    
                     echo "<p><strong>E-mail:</strong>$email <br></p>";
                     echo "<p><strong>Telefone:</strong> $tel <br></p>";
                     echo "<p><strong>Sexo:</strong>$genero <br></p>";
