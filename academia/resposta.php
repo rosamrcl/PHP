@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro do aluno</title>
-    <link rel="stylesheet" href="./css/cadastroresposta.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -42,7 +42,7 @@
 <div class="maincontent">
             <fieldset>
                 <legend>
-                    <h1 primary-texto>Cadastro do aluno</h1>
+                    <h1 class="primary-text">Cadastro do aluno</h1>
                 </legend>
                 <?php 
                 if ($_SERVER['REQUEST_METHOD']=="POST"){
@@ -64,21 +64,21 @@
                     $cep=($_POST["cep"]);
                     $datalocal=($_POST["datalocal"]);
                     
-                    echo"<p><strong>Nome:</strong> $nome . $lastaname <br></p>" ;                    
-                    echo "<p><strong>E-mail:</strong>$email <br></p>";
-                    echo "<p><strong>Telefone:</strong> $tel <br></p>";
-                    echo "<p><strong>Sexo:</strong>$genero <br></p>";
-                    echo "<p><strong>Data de Nascimento:</strong>$data_nascimento<br></p>";
-                    echo "<p><strong>Peso:</strong>$peso<br></p>";
-                    echo "<p><strong>Altura:</strong>$altura<br></p>";
-                    echo "<p><strong>IMC:</strong>$imc<br></p>";
-                    echo "<p> <strong>Endereço:</strong>$adress<br></p>";
-                    echo "<p><strong>Nº:</strong>$number<br></p>";
-                    echo "<p><strong>Complemento:</strong>$complemento<br></p>";
-                    echo "<p><strong>Cidade:</strong>$cidade<br></p>";
-                    echo "<p><strong>Estado:</strong>$estado<br></p>";
-                    echo "<p><strong>CEP:</strong>$cep<br></p>";
-                    echo "<p><strong>Data e local:</strong>$datalocal<br></p>";       
+                    echo"<p class='txt'><strong>Nome:</strong> $nome . $lastaname <br></p>" ;                    
+                    echo "<p class='txt'><strong>E-mail:</strong>$email <br></p>";
+                    echo "<p class='txt'><strong>Telefone:</strong> $tel <br></p>";
+                    echo "<p class='txt'><strong>Sexo:</strong>$genero <br></p>";
+                    echo "<p class='txt'><strong>Data de Nascimento:</strong>$data_nascimento<br></p>";
+                    echo "<p class='txt'><strong>Peso:</strong>$peso<br></p>";
+                    echo "<p class='txt'><strong>Altura:</strong>$altura<br></p>";
+                    echo "<p class='txt'><strong>IMC:</strong>$imc<br></p>";
+                    echo "<p class='txt'> <strong>Endereço:</strong>$adress<br></p>";
+                    echo "<p class='txt'><strong>Nº:</strong>$number<br></p>";
+                    echo "<p class='txt'><strong>Complemento:</strong>$complemento<br></p>";
+                    echo "<p class='txt'><strong>Cidade:</strong>$cidade<br></p>";
+                    echo "<p class='txt'><strong>Estado:</strong>$estado<br></p>";
+                    echo "<p class='txt'><strong>CEP:</strong>$cep<br></p>";
+                    echo "<p class='txt'><strong>Data e local:</strong>$datalocal<br></p>";       
                 }else{
                     header ("Location:cadastro.php");
                     exit();

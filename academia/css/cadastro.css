@@ -187,6 +187,12 @@ legend{
     -webkit-text-stroke-color: black;    
     
 }
+.txt{
+    font-size: 3em;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
 
 footer{
     background-color: rgba(22,22,22,0.2);
