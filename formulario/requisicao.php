@@ -36,7 +36,7 @@
         exit();
         }
     ?>
-    <img src="costi.svg" class="constir" alt="">
+    <a href="https://github.com/RosaCL"><img class="consti" src="./img/costureza.png" alt=""></a>
 
 </div>
 

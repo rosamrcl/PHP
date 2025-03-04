@@ -54,7 +54,7 @@
 
     </main>
     <footer>
-        <a href="https://github.com/RosaCL"><img class="consti" src="./img/costi.svg" alt=""></a>
+        <a href="https://github.com/RosaCL"><img class="consti" src="./img/costureza.png" alt=""></a>
     </footer>
 
 </body>

@@ -85,15 +85,14 @@ html,body{
     color: rgba(175, 6, 40, 0.788);
     font-size: 2em;
 }
-label,p, .forme{
+label p .forme{
     color: rgba(175, 6, 40, 0.788);
 }
+
+
 .consti{
-    width: 80px;
+    width: 150px; 
     text-align: center;
-}
-.constir{
-    width: 150px;
 }
 #divis{
     margin: 20px;
