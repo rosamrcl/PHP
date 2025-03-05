@@ -22,27 +22,23 @@
         $estado=htmlspecialchars($_POST["estado"]);
         $cep=htmlspecialchars($_POST["cep"]);
 
-        echo "<p><strong>Nome:</strong> $nome</p>";
-        echo "<p><strong>E-mail:</strong> $email</p>";
-        echo "<p><strong>Telefone:</strong> $tel</p>";
-        echo "<p><strong>Rua:</strong> $endereco</p>";
-        echo "<p><strong>Complemento:</strong> $complemento/p>";
-        echo "<p><strong>Cidade:</strong> $cidade</p>";
-        echo "<p><strong>Estado:</strong> $estado</p>";
-        echo "<p><strong>Cep:</strong> $cep</p>";
+        echo "<p><strong>Nome:</strong> $nome<br>
+        <strong>E-mail:</strong> $email <br>
+        <strong>Telefone:</strong> $tel <br>
+        <strong>Rua:</strong> $endereco <br>
+        <strong>Complemento:</strong> $complemento <br>
+        <strong>Cidade:</strong> $cidade <br>
+        <strong>Estado:</strong> $estado <br>
+        <strong>Cep:</strong> $cep <br>
+        </p><br>";     
+
 
     }else{
         header("location:requisicao.php");
         exit();
         }
     ?>
-    <a href="https://github.com/RosaCL"><img class="consti" src="costureza.png" alt=""></a>
-
 </div>
-
-
-
 </main>
 </body>
-
 </html>
