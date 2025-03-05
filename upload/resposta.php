@@ -79,11 +79,9 @@
 
             </fieldset>
         </div>
-
+        <a href="https://github.com/RosaCL"><img src="costureza.png" alt=""></a>
     </main>
-    <footer>
-        <a href="https://github.com/RosaCL"><img class="consti" src="./img/costureza.png" alt=""></a>
-    </footer>
+
 
 </body>
 
