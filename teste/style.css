@@ -63,6 +63,7 @@ main{
 
 }
 footer{
+    background-color: #cdebec;
     display: flex;
     align-items: center;
     justify-content: center;
